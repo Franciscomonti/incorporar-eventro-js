@@ -22,7 +22,6 @@ let prod5 = new Producto(5, "Buzo Liso", "negro", "buzo", 5000.00, "buzo-negro-h
 let prod6 = new Producto(6, "Buzo Liso", "blanco", "buzo", 5000.00, "buzo-blanco-hombre.jpg")
 let prod7 = new Producto(7, "Buzo Capucha", "negro", "buzo", 5500.00, "buzo-negro-capucha.webp")
 let prod8 = new Producto(8, "Buzo Capucha", "blanco", "buzo", 5500.00, "buzo-blanco-capucha.jpg")
-// let prod9 = new Producto(9, "caca", "blanco", "buzo", 500.00, "buzo-blanco-capucha.jpg")
 
 
 listaProductos.push(prod1);
@@ -33,7 +32,6 @@ listaProductos.push(prod5);
 listaProductos.push(prod6);
 listaProductos.push(prod7);
 listaProductos.push(prod8);
-// listaProductos.push(prod9);
 
 
 
