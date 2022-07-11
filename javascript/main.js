@@ -94,14 +94,8 @@ function crearCardCarrito(producto) {
                 `;
     return cardCreada
 }
-//Funcion ver los totales del carrito
-function totalcarrito() {
-    let cardCarrito = document.querySelector("#carrito");
-    cardCarrito.innerHTML += `<h2>Cantidad de productos: ${carrito.cantidadProductos()}</h2>`
-    cardCarrito.innerHTML += `<h2>Total: $ ${carrito.calcularTotal()}</h2>`
-    contadorCarrito()
 
-}
+//Funcion ver los totales del carrito
 
 function contadorCarrito() {
     let contadorCar = document.getElementById("contCar")
@@ -133,14 +127,12 @@ function manejarCarrito(id) {
     }
 }
 
-
 function estaEnCarrito(id) {
     for (let prod of carrito) {
         if (prod.producto.id == id) {
             return true
         }
     }
-
     return false
 }
 
